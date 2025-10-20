@@ -10,3 +10,8 @@ Sample of alowed search:
 
 #### You are allowed to search specific thing that you need to do
 #### but do not search or use the same task that you have.
+
+#### Extensions that can help you
+- Icons
+- Prettier - Code formatter
+- Color Highlight

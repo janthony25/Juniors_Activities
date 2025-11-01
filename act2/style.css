@@ -5,6 +5,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	font-family: sans-serif;
 }
 
 #card-container {
@@ -37,9 +38,7 @@ img {
 	border-radius: 70px;
 }
 
-h1, p {
-	font-family: sans-serif;
-}
+
 h1 {
 	margin-bottom: 0px;
 	font-size: 26px;

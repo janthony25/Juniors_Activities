@@ -2,11 +2,20 @@ body {
 	background-color: #e5e7eb;
 }
 
-img {
-	display: block;
+#container {
+	background-color: #ffffff;
+}
+
+#profile-card {
 	width: 120px;
 	height: 120px;
 	border-radius: 70px;
 	border: #8b5cf6 solid;
+}
+
+#profile-card img {
+	width: 120px;
+	height: 120px;
+	border-radius: 70px;
 }
 

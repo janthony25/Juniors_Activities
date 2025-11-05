@@ -1,6 +1,8 @@
 body {
 	background-color: #f9fafb;
 	margin: 0;
+	font-family: sans-serif;
+	text-align: center;
 }
 
 .nav-bar {
@@ -18,4 +20,18 @@ ul li {
 	list-style-type: none;
 	padding: 20px;
 
+}
+
+ul li a {
+	text-decoration: none;
+	color: #f3f4f6;
+	font-size: 20px;
+}
+
+h1 {
+	color: #1f2937;
+}
+
+p {
+	color: #6b7280;
 }

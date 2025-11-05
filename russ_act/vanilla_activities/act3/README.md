@@ -21,8 +21,8 @@
     - #60a5fa
 8. Add the Text in the middle like in the photo
 9. These are the colors that were used:
-    - #1f2937
-    - #f3f4f6
+    - #1f2937 - background color of navbar
+    - #f3f4f6 - navbar text color
     - #374151
     - #60a5fa
     - #3b82f6

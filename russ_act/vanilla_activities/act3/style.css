@@ -1,0 +1,21 @@
+body {
+	background-color: #f9fafb;
+	margin: 0;
+}
+
+.nav-bar {
+	background-color: #1f2937;
+
+}
+
+ul {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0;
+}
+
+ul li {
+	list-style-type: none;
+	padding: 20px;
+
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+p{
+    font-size: 14px;
+}
+.card {
+    border-width: 2px;
+    border-style: solid;
+    padding: 15px 15px 15px 15px;
+    display: grid;
+    place-items: center;
+    
+    
+}
+.luffy {
+    display:flex;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-width: 3px;
+    border: solid;
+    border-radius: 60px;
+    border-color: rgb(171, 171, 255);
+}

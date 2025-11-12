@@ -16,14 +16,13 @@ ul li {
   margin-left: 20px;
   color: white;
   list-style-type: none;
-  
+
 }
 
 li {
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 5px;
-  gap: 20px;
 }
 
 a {
@@ -33,7 +32,7 @@ a {
     color: white;
     padding: 10px 15px 10px 15px;
     border-radius: 5px;
-    
+
 }
 
 li a:hover {
@@ -60,4 +59,5 @@ li a:hover {
     color: #6b7280;
     text-align: center;
     font-family: Arial;
+
 }

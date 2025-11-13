@@ -1,6 +1,18 @@
 function changeText() {
-	console.log("Change text!");
+	console.log("The button is clicked!");
 	var paragraphTextChange = document.getElementById("change-text");
+	var clickedButton = document.getElementById("click-me");
+	
 
-	paragraphTextChange.innerHTML = "Text has been changed!";
+	do {
+		if(paragraphTextChange.innerHTML == "Original Text") {
+			paragraphTextChange.innerHTML = "Text has been changed!";
+			console.log("The text has been changed into " + paragraphTextChange.innerHTML);
+		}
+		else {
+			paragraphTextChange.innerHTML = "Original Text";
+			console.log("The text has been changed into " + paragraphTextChange.innerHTML);
+		}
+	}while(clickedButton == true);
+	
 }

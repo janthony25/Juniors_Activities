@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activity 3: Simple Calculator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <h1>Activity 3: Simple Calculator</h1>
@@ -23,9 +24,10 @@
     <hr>
     
     <h2>Solution:</h2>
-    <input type="number" name="numbers" placeholder="First number">
-    <input type="number" name="numbers" placeholder="Second number">
-    <button onclick="">Calculate</button>
+    <input type="number" id="input-1" name="numbers" placeholder="First number">
+    <input type="number" id="input-2" name="numbers" placeholder="Second number">
+    <button onclick="getTheSum()">Calculate</button>
+    <p>Result here: <span id="sum"></span></p>
     
 </body>
 </html>

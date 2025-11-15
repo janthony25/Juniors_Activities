@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activity 7: Temperature Converter</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <h1>Activity 7: Temperature Converter</h1>
@@ -24,8 +25,9 @@
     <hr>
     
     <h2>Solution:</h2>
-    <input type="number" name="celsius">
-    <button>Convert</button>
+    <input type="number" name="celsius" id="celsius">
+    <button onclick="celsiusToFahrenheit()">Convert</button>
+    <p><span id="fahrenheit"></span></p>
     
 </body>
 </html>
